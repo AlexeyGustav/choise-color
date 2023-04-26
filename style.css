@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Bitter", serif;
+    font-weight: 400;
+    height: 100vh;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col h2 {
+    padding: 1rem;
+    color: #fff;
+    border-radius: 1rem;
+    transition: background 0.3s;
+}
+
+.col h2:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.col button {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.col button:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
